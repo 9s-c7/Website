@@ -1,0 +1,36 @@
+.owl-carousel {
+  position: relative;
+  padding: 0 2px; 
+}
+
+.skill-slider .item {
+  text-align: center;
+  padding: 20px;
+}
+
+.skill-image {
+  max-width: 70px; 
+  height: auto; 
+}
+
+.react-multi-carousel-arrow {
+  background-color: transparent;
+  font-size: 24px; 
+  z-index: 1; 
+}
+
+.react-multi-carousel-arrow-prev {
+  left: 10px;
+}
+
+.react-multi-carousel-arrow-next {
+  right: 10px; 
+}
+
+.background-image-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: auto;
+}
