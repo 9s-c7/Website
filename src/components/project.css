@@ -1,0 +1,15 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Full viewport height */
+  }
+  
+  h3 {
+    text-align: center; /* Center text inside the h3 */
+  }
+
+a{
+    text-decoration: none;
+}
+  
