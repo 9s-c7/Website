@@ -9,6 +9,7 @@ import bj from "../assets/img/bj.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import './project.css';
 
 export const Projects = () => {
 
@@ -65,6 +66,9 @@ export const Projects = () => {
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Link eventKey="first">Projects</Nav.Link>
                   </Nav>
+                  <div class="center-container">
+                    <h3>For more Projects, check out my Github account <a href="https://github.com/9s-c7">here.</a></h3>
+                  </div>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
@@ -93,7 +97,9 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
+      
       <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }
+
