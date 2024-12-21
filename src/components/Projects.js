@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/fm.png";
 import projImg2 from "../assets/img/sms.png";
+import food from "../assets/img/food.png";
 import projImg3 from "../assets/img/amz.png";
 import cart from "../assets/img/cart.png"
 import social from "../assets/img/social.png"
@@ -14,13 +15,19 @@ import './project.css';
 export const Projects = () => {
 
   const projects = [
+    // {
+    //   title: "Full stack Real Estate App",
+    //   description: "Full Stack Application",
+    //   imgUrl: projImg1,
+    //   link:"https://made2automate.vercel.app/home",
     {
-      title: "Inventory Management System",
-      description: "Full Stack Application",
-      imgUrl: projImg1,
-      link:"https://made2automate.vercel.app/home",
+      title: "Food Classification using InceptionResnetV2",
+      description: "ML Application",
+      imgUrl: food,
+      link:"https://github.com/9s-c7/Food_classification",
     },
     {
+      
       title: "Student Management System",
       //description: "Design & Development",
       imgUrl: projImg2,
